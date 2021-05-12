@@ -1,0 +1,23 @@
+
+const Question = { // Top Level filter
+    "display_name": "Product Type",
+    "backend_name": "product-type",
+};
+    
+const Answer = { //Second filter
+    "answers": [
+        {
+            "display_name": "Casement",
+            "backend_name": "casement",
+            "selected": false,
+            "image_url": null,
+            "tile_count": 8,
+            "url": "/shop/windows/casement/"
+        },
+       
+            ]
+ };
+ 
+// "dynamic filter field"
+const stringQuestion = JSON.stringify(Question);
+const stringAnswers = JSON.stringify(Answers);
