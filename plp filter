@@ -2,7 +2,7 @@
 const Filter = { // Top Level filter
     "display_name": "Product Type",
     "backend_name": "product-type",
-                };
+};
     
 const Filter = { //Second filter
     "answers": [
@@ -11,12 +11,12 @@ const Filter = { //Second filter
             "backend_name": "casement",
             "selected": false,
             "image_url": null,
-            "tile_count": 6,
+            "tile_count": 8,
             "url": "/shop/windows/casement/"
         },
        
             ]
-                };
+ };
  
 // "dynamic filter field"
 const string = "...";
